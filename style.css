@@ -23,3 +23,18 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
    }
+   .card {
+    object-position:100% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .price {
+    color: rgb(95, 51, 57);
+    font-size: 22px;
+  }
