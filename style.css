@@ -11,11 +11,11 @@ form{
     padding: 40px;
     margin-top: 100px;
 }
-.Heading
-{
+.Heading{
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);
+    background-image: url("images/carissa-gan-_0JpjeqtSyg-unsplash (1).jpg");
   }
    .Pizza{
     position: absolute;
@@ -24,12 +24,12 @@ form{
     transform: translate(-50%, -50%);
    }
    .card {
-   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
+
   }
   #pizzashop{
     background-color:rgb(77, 23, 35);
@@ -41,6 +41,13 @@ form{
     color: rgb(95, 51, 57);
     font-size: 22px;
   }
+  #Mainpizza{
+    display: flex;
+  }
+.card img{
+  height:300px ;
+}
+
   
   
   
