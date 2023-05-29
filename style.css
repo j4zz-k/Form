@@ -3,9 +3,16 @@
     justify-content: center;
     align-items: center;
     background-color:rgb(119, 12, 35);
-  
-    
+
+
 }
+ #signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(119, 12, 35);
+ }
+
 form{
     background-color: rgb(177, 97, 72);
     padding: 40px;
@@ -47,6 +54,37 @@ form{
 .card img{
   height:300px ;
 }
+.topnav {
+  background-color: rgb(61, 5, 10);
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #653ff1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(141, 76, 79);
+  color: rgb(211, 58, 160);
+}
+.topnav a.active {
+  background-color: #aa0452;
+  color: white;
+}
+.signupbtn{
+  background-color: #f7b28a;
+  color: rgb(95, 48, 48);
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
 
   
   
